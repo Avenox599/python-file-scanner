@@ -24,8 +24,7 @@ Un outil simple et efficace en **Python** pour scanner le contenu d'un répertoi
    git clone [https://github.com/Avenox599/python-file-scanner.git](https://github.com/Avenox599/python-file-scanner.git)
    cd python-file-scanner```
 2. Lancez le script:
-```bash
-python main.py chemin/du/dossier```
+bash```python main.py chemin/du/dossier```
 3. Suivez les instructions à l'écran pour entrer le chemin du dossier à analyser.
 
 ## Structure de Rapport JSON
@@ -41,7 +40,7 @@ Le fichier rapport.json généré suit cette structure:
     ]
 }
 
-## Technologie utilisées
+## Technologies utilisées
 ### Python 3
 ### Pathlib
 Pour une gestion robuste des chemins de fichiers.
