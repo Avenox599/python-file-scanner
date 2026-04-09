@@ -25,9 +25,8 @@ Un outil simple et efficace en **Python** pour scanner le contenu d'un répertoi
    cd python-file-scanner```
 2. Lancez le script:
 ```bash
+
 python file_analyzer.py chemin/du/dossier```
-=======
-bash```python main.py chemin/du/dossier```
 
 3. Suivez les instructions à l'écran pour entrer le chemin du dossier à analyser.
 
