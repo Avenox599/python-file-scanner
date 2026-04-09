@@ -23,10 +23,19 @@ Un outil simple et efficace en **Python** pour scanner le contenu d'un répertoi
    ```bash
    git clone [https://github.com/Avenox599/python-file-scanner.git](https://github.com/Avenox599/python-file-scanner.git)
    cd python-file-scanner```
-2. Lancez le script:
-```bash python file_analyzer.py chemin/du/dossier```
 
-3. Suivez les instructions à l'écran pour entrer le chemin du dossier à analyser.
+🔹 Mode 1 : Ligne de commande (CLI)
+
+Vous pouvez spécifier directement le dossier à analyser :
+```bash python3 file_analyser.py chemin/du/dossier```
+
+🔹 Mode 2 : Mode interactif
+
+Si aucun argument n’est fourni, le script vous demandera de saisir le chemin :
+```bash file_analyser.py```
+Puis entrez le chemin du dossier lorsque le programme vous le demande.
+
+NB: Si aucun chemin n’est fourni en argument, le script bascule automatiquement en mode interactif.
 
 ## Structure de Rapport JSON
 Le fichier rapport.json généré suit cette structure:
