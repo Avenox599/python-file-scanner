@@ -29,7 +29,7 @@ fichier_plein = 0
 fichier_err = 0
 resultats = []
 
-# Correction : Utilisation de __file__ pour que le script s'ignore lui-même dynamiquement
+# Utilisation de __file__ pour que le script s'ignore lui-même dynamiquement
 nom_du_script = Path(__file__).name
 
 for fichier in dossier.iterdir():
@@ -78,7 +78,7 @@ rapport_json = {
     "vide": fichier_vide,
     "ok": fichier_plein,
     "erreur": fichier_err,
-    "details": [ # Correction : "détails" -> "details" (mieux sans accent en JSON)
+    "details": [ 
         {"fichier": nom, "statut": statut}
         for nom, statut in resultats
     ]
